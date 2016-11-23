@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: org.slf4j;version=1.7.21, org.slf4j.spi;version=1.7.21
+ , org.slf4j.helpers;version=1.7.21, org.slf4j.event;version=1.7.21
+Implementation-Title: slf4j-api
+Implementation-Version: 1.7.21
+Built-By: ceki
+Bundle-Name: slf4j-api
+Created-By: Apache Maven
+X-Compile-Source-JDK: 1.5
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: SLF4J.ORG
+Build-Jdk: 1.6.0_22
+Bundle-Version: 1.7.21
+Bundle-ManifestVersion: 2
+Bundle-Description: The slf4j API
+Import-Package: org.slf4j.impl;version=1.6.0
+Bundle-SymbolicName: slf4j.api
+Archiver-Version: Plexus Archiver
+X-Compile-Target-JDK: 1.5
+Main-Class: com.hdk.app.App
+
+
